@@ -48,6 +48,7 @@ class RegisterController extends Controller
         ]);
 
    
+        dd($request);
         return redirect()->route('index');
 
         
